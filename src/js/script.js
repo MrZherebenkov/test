@@ -104,7 +104,7 @@ close.addEventListener('click', closeCart);
                 btn.addEventListener('click', () => {
                     btn.parentElement.remove();
                     calcGoods(0);
-                    calcTotal();
+                    calcTotal();  
                 });
             });
         }
